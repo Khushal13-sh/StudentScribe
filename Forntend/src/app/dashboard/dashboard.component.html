@@ -1,0 +1,22 @@
+<button (click)="logout()">LogOut</button>
+<table border="1">
+  <tr>
+    <td>SN</td>
+    <td>Name</td>
+    <td>Marks</td>
+    <td>Action</td>
+  </tr>
+
+  <tr *ngFor="let student of students, let i=index">
+    <td>{{i+1}}</td>
+    <td>{{student.name}}</td>
+    <td>{{student.marks}}</td>
+    <td>
+      <button (click)="delete(student)">Delete</button>
+    </td>
+  </tr>
+</table>
+
+Name:<input type="text" [(ngModel)]="name"><br>
+Marks:<input type="number" [(ngModel)]="marks"><br>
+<button (click)="add()">Add</button>
