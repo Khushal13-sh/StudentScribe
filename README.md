@@ -10,7 +10,7 @@ Spring Boot Backend: Leverage the power of Spring Boot for robust backend functi
 MySQL Database: Store student records securely in a MySQL database for easy retrieval and management.
 
 Deployment:
-The application is hosted and can be accessed at [http//:localhost:8080//](http//:localhost:8080//). Simply navigate to the provided URL to start managing student records.
+The application is hosted and can be accessed at (http://13.235.80.153:8080/studentManagementui/). Simply navigate to the provided URL to start managing student records.
 
 Motivation:
 The primary motive behind this project was to create a user-friendly and efficient system for managing student records. By combining frontend technologies like Angular with backend frameworks like Spring Boot and MySQL, this project aims to provide a reliable solution for educational institutions and administrators.
